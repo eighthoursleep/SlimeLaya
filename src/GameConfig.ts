@@ -4,10 +4,10 @@
 * 游戏初始化配置;
 */
 export default class GameConfig{
-    static width:number=640;
-    static height:number=1136;
+    static width:number=750;
+    static height:number=1334;
     static scaleMode:string="fixedwidth";
-    static screenMode:string="none";
+    static screenMode:string="vertical";
     static alignV:string="top";
     static alignH:string="left";
     static startScene:any="";
