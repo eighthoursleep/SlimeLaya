@@ -1,25 +1,16 @@
 {
 	"version":"LAYAMATERIAL:02",
 	"props":{
-		"type":"Laya.PBRSpecularMaterial",
-		"name":"Red",
+		"type":"Laya.PBRStandardMaterial",
+		"name":"EthanWhite",
 		"textures":[],
 		"vectors":[
 			{
 				"name":"albedoColor",
 				"value":[
-					0.4761314,
-					0,
-					1,
-					1
-				]
-			},
-			{
-				"name":"specularColor",
-				"value":[
-					0.2,
-					0.2,
-					0.2,
+					0.754717,
+					0.1032396,
+					0.6063127,
 					1
 				]
 			},
@@ -29,7 +20,7 @@
 					0,
 					0,
 					0,
-					1
+					0.9999999
 				]
 			},
 			{
@@ -53,6 +44,7 @@
 		"_Cutoff":0.5,
 		"smoothness":0.5,
 		"smoothnessTextureScale":1,
+		"metallic":0,
 		"normalTextureScale":1,
 		"parallaxTextureScale":0.02,
 		"occlusionTextureStrength":1

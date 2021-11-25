@@ -35,9 +35,9 @@
 		"depthTest":515,
 		"renderQueue":1000,
 		"sunDisk":2,
-		"sunSize":0.04,
-		"sunSizeConvergence":5,
-		"atmosphereThickness":1,
+		"sunSize":0.094,
+		"sunSizeConvergence":1.9,
+		"atmosphereThickness":1.21,
 		"exposure":1
 	}
 }
